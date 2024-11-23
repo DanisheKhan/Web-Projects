@@ -1,11 +1,119 @@
+
 {
+  // "apc.electron": {
+  //   "opacity": 0.95,
+  //   "window.titleBarStyle": "native",
+  //   "window.customTitleBarVisibility": "never",
+  //   "transparent": true,
+  //   "backgroundColor": "#00000000",
+  //   "vibrancy": "ultra-dark",
+  //   "frame": false,
+  //   "titleBarStyle": "hiddenInset",
+  //   "trafficLightPosition": {
+  //     "x": 7,
+  //     "y": 5
+  //   }
+  // },
+
+  "apc.stylesheet": {
+    ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 50px 0.5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important"
+  },
+
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // "animations.Enabled": true,
+  // "animations.CursorAnimation": true,
+  // "animations.Command-Palette": "None",
+  // "animations.CursorAnimationOptions": {
+  //   "TrailLength": 10
+  // },
+  // "animations.Tabs": "Slide",
+  // "animations.Active": "Indent",
+
+  // "editor.copyWithSyntaxHighlighting": false,
+  // "diffEditor.ignoreTrimWhitespace": false,
+  // "editor.emptySelectionClipboard": false,
+  // "workbench.editor.enablePreview": false,
+  // "window.newWindowDimensions": "inherit",
+  // "editor.multiCursorModifier": "ctrlCmd",
+  // "files.trimTrailingWhitespace": true,
+  // "diffEditor.renderSideBySide": false,
+  // "editor.snippetSuggestions": "top",
+  // "editor.detectIndentation": false,
+  // "window.nativeFullScreen": true,
+  // "files.insertFinalNewline": true,
+  // "files.trimFinalNewlines": true,
+  // "editor.minimap.enabled": false,
+  // "editor.guides.indentation": false,
+
+  // "scm.diffDecorations": "none",
+  // "workbench.tips.enabled": false,
+  // "editor.colorDecorators": false,
+  // "git.decorations.enabled": false,
+  // "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": "off",
+  // "editor.selectionHighlight": false,
+  // "editor.overviewRulerBorder": false,
+  // "editor.renderLineHighlight": "none",
+  // "problems.decorations.enabled": false,
+  // "editor.renderControlCharacters": false,
+  // "editor.hideCursorInOverviewRuler": true,
+  // "editor.gotoLocation.multipleReferences": "goto",
+  // "editor.gotoLocation.multipleDefinitions": "goto",
+  // "editor.gotoLocation.multipleDeclarations": "goto",
+  // "workbench.editor.enablePreviewFromQuickOpen": false,
+  // "editor.gotoLocation.multipleImplementations": "goto",
+  // "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // apc
+
+  "editor.scrollbar.verticalScrollbarSize": 3,
+  "editor.scrollbar.horizontalScrollbarSize": 3,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    "Tailwind ToDesktop Project": true,
+    "React [1] Nike Project": true,
+    "MERN Projext": true,
+    "React One Nike Project": true,
+    ".vscode": true,
+    "Brave Browser Home page using tailwind": true
   },
-  "hide-files.files": []
+  "hide-files.files": [
+    "Tailwind ToDesktop Project",
+    "React [1] Nike Project",
+    "MERN Projext",
+    "React One Nike Project",
+    ".vscode",
+    "Brave Browser Home page using tailwind"
+  ],
+  "editor.indentationSize": 1,
+  "workbench.colorCustomizations": {
+  "[One Dark Pro]": {
+    "menu.selectionBackground": "#ffffff",
+    // Title bar opacity not work because: https://github.com/microsoft/vscode/blob/444d7a4b35745ed7733c700a8008f55cd659eb1d/src/vs/workbench/browser/parts/titlebar/titlebarPart.ts#L682
+    // "titleBar.activeBackground": "#00000000",  
+    "editor.background": "#282c3499",
+    "editorGutter.background": "#00000000",
+    "editor.lineHighlightBackground": "#2c313c4d",
+    "editorPane.background": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+    "editorGroupHeader.tabsBackground": "#282c34cc",
+    "breadcrumb.background": "#00000000",
+    "panel.background": "#282c34cc",
+    "terminal.background": "#00000000",
+    "sideBar.background": "#21252bcc",
+    "sideBarTitle.background": "#00000000",
+    "statusBar.background": "#21252bcc",
+    "statusBar.noFolderBackground": "#21252bcc",
+    "input.background": "#1d1f234d",
+    "dropdown.background": "#21252bcc",
+    "dropdown.border": "#21252b4d",
+  },
+}
 }
