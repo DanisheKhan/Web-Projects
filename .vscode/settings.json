@@ -82,7 +82,9 @@
     "MERN Projext": true,
     "React One Nike Project": true,
     ".vscode": true,
-    "Brave Browser Home page using tailwind": true
+    "Brave Browser Home page using tailwind": true,
+    "bootsrap": true,
+    "counter-using-react": true
   },
   "hide-files.files": [
     "Tailwind ToDesktop Project",
@@ -90,7 +92,9 @@
     "MERN Projext",
     "React One Nike Project",
     ".vscode",
-    "Brave Browser Home page using tailwind"
+    "Brave Browser Home page using tailwind",
+    "bootsrap",
+    "counter-using-react"
   ],
   "editor.indentationSize": 1,
   "workbench.colorCustomizations": {
