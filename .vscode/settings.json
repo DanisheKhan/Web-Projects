@@ -84,7 +84,13 @@
     ".vscode": true,
     "Brave Browser Home page using tailwind": true,
     "bootsrap": true,
-    "counter-using-react": true
+    "counter-using-react": true,
+    "MERN": true,
+    "OTHERS": true,
+    "REACT/counter-using-react": true,
+    "REACT/React One Nike Project": true,
+    ".gitignore": true,
+    "REACT/Brave Browser Home page using tailwind": true
   },
   "hide-files.files": [
     "Tailwind ToDesktop Project",
@@ -94,7 +100,13 @@
     ".vscode",
     "Brave Browser Home page using tailwind",
     "bootsrap",
-    "counter-using-react"
+    "counter-using-react",
+    "MERN",
+    "OTHERS",
+    "REACT/counter-using-react",
+    "REACT/React One Nike Project",
+    ".gitignore",
+    "REACT/Brave Browser Home page using tailwind"
   ],
   "editor.indentationSize": 1,
   "workbench.colorCustomizations": {
