@@ -86,11 +86,11 @@
     "bootsrap": true,
     "counter-using-react": true,
     "MERN": true,
-    "OTHERS": true,
     "REACT/counter-using-react": true,
     "REACT/React One Nike Project": true,
     ".gitignore": true,
-    "REACT/Brave Browser Home page using tailwind": true
+    "REACT/Brave Browser Home page using tailwind": true,
+    "REACT/Contact Us page": true
   },
   "hide-files.files": [
     "Tailwind ToDesktop Project",
@@ -102,11 +102,11 @@
     "bootsrap",
     "counter-using-react",
     "MERN",
-    "OTHERS",
     "REACT/counter-using-react",
     "REACT/React One Nike Project",
     ".gitignore",
-    "REACT/Brave Browser Home page using tailwind"
+    "REACT/Brave Browser Home page using tailwind",
+    "REACT/Contact Us page"
   ],
   "editor.indentationSize": 1,
   "workbench.colorCustomizations": {
