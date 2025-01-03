@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <div>khan</div>
-    </>
+    <div className="max-w-[400px] mx-auto">
+      <Navbar />
+    </div> 
   );
 }
 
