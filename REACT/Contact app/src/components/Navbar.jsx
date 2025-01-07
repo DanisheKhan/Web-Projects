@@ -2,11 +2,9 @@ import React from "react";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
 import { IoAddOutline } from "react-icons/io5";
+// Adjust the path to the correct location of firebase config
 
 const Navbar = () => {
-
-  
-
   return (
     <>
       <nav className="rounded-b-2xl text-center p-5 backdrop-blur-2xl">
